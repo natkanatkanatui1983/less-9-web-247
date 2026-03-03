@@ -1,0 +1,23 @@
+.header-wraper {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.header-element {
+    padding: 24px 32px;
+
+}
+.ul-navi {
+    display: flex;
+}
+.action-navigation {
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: black;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
