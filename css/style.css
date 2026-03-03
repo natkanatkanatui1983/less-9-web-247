@@ -21,3 +21,149 @@
     justify-content: center;
     align-items: center;
 }
+ .burger-bar {
+    display: none;
+    
+ }
+    
+
+ .conteiner {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+    row-gap: 68px;
+ }
+  .left-div {
+    width: 490px;
+    
+  }
+  .action-bg {
+    width: 100px;
+    height: 48px;
+    background-color: black;
+    color: #F3F3F3;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .action-describtion {
+     width: 236px;
+  }
+  .small-box {
+    width: 490px;
+    height: 48px;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 16px;
+    margin-top: 40px;
+    align-items: center;
+  } 
+  .right-div {
+    width: 490px;
+    
+  }
+  .picture-img {
+    width: 100%;
+  }
+
+  /* me2 section */
+  .wraper {
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 30px;
+  }
+  .wraper-box {
+    width: 360px;
+    
+  }
+   .small-wraper {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+   }
+   .raund {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: black;
+   }
+  
+  .section-bg {
+    background-color: #F3F3F3;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .conteiner {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-div {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+   .right-div {
+    width: 100%;
+   }
+    .action-describtion {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width:744px) {
+      .small-box  {
+        flex-direction: column;
+      }
+      .wraper {
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .wraper-box {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+    .navigation {
+        display: none;
+    }
+    .action-navigation {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: black;
+    display: flex;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
