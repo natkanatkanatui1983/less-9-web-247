@@ -127,13 +127,130 @@
 
 
 
+.bg-image {
+  background-image: url('../images/CTAImg-Wide-1440px+-New.jpg');
+  width: 100%;
+  background-size: cover;
+  height: 564px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+ .bg-block {
+  width: 540px;
+  height: 180px;
+  border: 1px solid#FFFFFF ;
+  width: 90%;
+  text-align: center;
+  color: #F3F3F3;
+  align-items: center;
+  
+  
+ }
+  .text-name {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0,5px;
+    
+  }
+  
+
+
+   .action-block {
+    width: 84px;
+    height: 48px;
+    background-color:white;
+     color: black;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    
+  }
+   
+
+
+
+
+
+  /*  footer style */
+   .footer-element {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 100px;
+    background-color: black;
+    height: 309px;
+    
+   }
+
+   .footer-block{
+    border-width: 1px;
+    border-style: solid;
+    
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    height: 144px;
+    color: #F3F3F3;
+    vertical-align: top;
+    
+   }
+
+  
+   
+  .footer-box1 {
+    width: 87px;
+    height: 27px;
+    padding-bottom: 117px;
+    padding-right: 210px;
+  }
+
+
+
+  .footer-box2 {
+    width: 210px;
+    height: 144px;
+    
+  }
+     
+  
+  .footer-box3 {
+    width: 210px;
+    height: 116px;
+  }
+
+  
+   
+  .footer-box4 {
+    width: 210px;
+    height: 96px;
+  }
+
+    
+   
+  .footer-box5 {
+    width: 210px;
+    height: 108px;
+  }
+
+
+  
+
+
+
+
 @media (max-width:1024px) {
     .conteiner {
         flex-direction: column;
         height: auto;
     }
     .left-div {
-        width: 100%;
+        width: 100%;footer
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -158,9 +275,26 @@
     .left-img {
      width: 100%;
 }
+
+  
+.bg-image {
+  background-image: url('../images/CTAImg-Tablet-1024px.jpg');
+  width: 100%;
+ 
+  height: 588px;
+  }
+  .action-block {
+    gap: 32px 12px;
   }
   
 
+
+
+  .footer-block {
+    flex-direction: column;
+    gap: 12px;
+  }
+ }
 
 
 
@@ -204,11 +338,33 @@
     .container-1 {
      row-gap: 29px;
     }
-    
+    .bg-image {
+     background-image: url('../images/CTAImg-Tablet-Small-744px.jpg');
+     width: 100%;
+ 
+     height: 500px;
+     
+  }
+  
+
+
+
+
 }
 
 @media (max-width:375px) {
  .container-1 {
   row-gap: 14px;
  }
+
+ .bg-image {
+     background-image: url('../images/CTAImg-Mobile-375px.jpg');
+     width: 100%;
+ 
+     height: 500px;
+  }
+  
+
+
+
 }
